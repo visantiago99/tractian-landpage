@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Hero from './components/Hero';
+import Disclaimer from './components/Disclaimer';
+import YoutubeDisclaimer from './components/YoutubeDisclaimer';
+import PercentegeDisclaimer from './components/PercentegeDisclaimer';
+import Features from './components/Features';
+import Alerts from './components/Alerts';
+import ContactForm from './components/ContactForm';
+import Partners from './components/Partners';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero />
+      <Disclaimer />
+      <YoutubeDisclaimer />
+      <PercentegeDisclaimer />
+      <Features />
+      <Alerts />
+      <Partners />
+      <ContactForm />
     </div>
   );
 }
