@@ -7,6 +7,7 @@ import Features from './components/Features';
 import Alerts from './components/Alerts';
 import ContactForm from './components/ContactForm';
 import Partners from './components/Partners';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Alerts />
       <Partners />
       <ContactForm />
+      <Footer />
     </div>
   );
 }
